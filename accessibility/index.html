@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP | ウェブアクセシビリティ</title>
+    <link rel="stylesheet" href="../css/accessibility.css">
+    <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/site.webmanifest">
+        <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="../favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="../favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    <!-- Favicon end -->
+</head>
+<body>
+    <header class="header">
+        <div class="h_l">
+            <img src="../img/top_logo.png" class="logo" alt="PPS Logo">
+        </div>
+        <div class="h_r">
+            <ul>
+                <li><a href="../index.html" class="link">ホーム</a></li>
+                <li><a href="../index.html#type" class="link">種類</a></li>
+                <li><a href="../index.html#history" class="link">歴史</a></li>
+                <li>
+                    <a href="" class="link last-child setting">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
+                        <path d="M 24 4 C 22.423103 4 20.902664 4.1994284 19.451172 4.5371094 A 1.50015 1.50015 0 0 0 18.300781 5.8359375 L 17.982422 8.7382812 C 17.878304 9.6893592 17.328913 10.530853 16.5 11.009766 C 15.672739 11.487724 14.66862 11.540667 13.792969 11.15625 L 13.791016 11.15625 L 11.125 9.9824219 A 1.50015 1.50015 0 0 0 9.4257812 10.330078 C 7.3532865 12.539588 5.7626807 15.215064 4.859375 18.201172 A 1.50015 1.50015 0 0 0 5.4082031 19.845703 L 7.7734375 21.580078 C 8.5457929 22.147918 9 23.042801 9 24 C 9 24.95771 8.5458041 25.853342 7.7734375 26.419922 L 5.4082031 28.152344 A 1.50015 1.50015 0 0 0 4.859375 29.796875 C 5.7625845 32.782665 7.3519262 35.460112 9.4257812 37.669922 A 1.50015 1.50015 0 0 0 11.125 38.015625 L 13.791016 36.841797 C 14.667094 36.456509 15.672169 36.511947 16.5 36.990234 C 17.328913 37.469147 17.878304 38.310641 17.982422 39.261719 L 18.300781 42.164062 A 1.50015 1.50015 0 0 0 19.449219 43.460938 C 20.901371 43.799844 22.423103 44 24 44 C 25.576897 44 27.097336 43.800572 28.548828 43.462891 A 1.50015 1.50015 0 0 0 29.699219 42.164062 L 30.017578 39.261719 C 30.121696 38.310641 30.671087 37.469147 31.5 36.990234 C 32.327261 36.512276 33.33138 36.45738 34.207031 36.841797 L 36.875 38.015625 A 1.50015 1.50015 0 0 0 38.574219 37.669922 C 40.646713 35.460412 42.237319 32.782983 43.140625 29.796875 A 1.50015 1.50015 0 0 0 42.591797 28.152344 L 40.226562 26.419922 C 39.454197 25.853342 39 24.95771 39 24 C 39 23.04229 39.454197 22.146658 40.226562 21.580078 L 42.591797 19.847656 A 1.50015 1.50015 0 0 0 43.140625 18.203125 C 42.237319 15.217017 40.646713 12.539588 38.574219 10.330078 A 1.50015 1.50015 0 0 0 36.875 9.984375 L 34.207031 11.158203 C 33.33138 11.54262 32.327261 11.487724 31.5 11.009766 C 30.671087 10.530853 30.121696 9.6893592 30.017578 8.7382812 L 29.699219 5.8359375 A 1.50015 1.50015 0 0 0 28.550781 4.5390625 C 27.098629 4.2001555 25.576897 4 24 4 z M 24 7 C 24.974302 7 25.90992 7.1748796 26.847656 7.3398438 L 27.035156 9.0644531 C 27.243038 10.963375 28.346913 12.652335 30 13.607422 C 31.654169 14.563134 33.668094 14.673009 35.416016 13.904297 L 37.001953 13.207031 C 38.219788 14.669402 39.183985 16.321182 39.857422 18.130859 L 38.451172 19.162109 C 36.911538 20.291529 36 22.08971 36 24 C 36 25.91029 36.911538 27.708471 38.451172 28.837891 L 39.857422 29.869141 C 39.183985 31.678818 38.219788 33.330598 37.001953 34.792969 L 35.416016 34.095703 C 33.668094 33.326991 31.654169 33.436866 30 34.392578 C 28.346913 35.347665 27.243038 37.036625 27.035156 38.935547 L 26.847656 40.660156 C 25.910002 40.82466 24.973817 41 24 41 C 23.025698 41 22.09008 40.82512 21.152344 40.660156 L 20.964844 38.935547 C 20.756962 37.036625 19.653087 35.347665 18 34.392578 C 16.345831 33.436866 14.331906 33.326991 12.583984 34.095703 L 10.998047 34.792969 C 9.7799772 33.330806 8.8159425 31.678964 8.1425781 29.869141 L 9.5488281 28.837891 C 11.088462 27.708471 12 25.91029 12 24 C 12 22.08971 11.087719 20.290363 9.5488281 19.160156 L 8.1425781 18.128906 C 8.8163325 16.318532 9.7814501 14.667839 11 13.205078 L 12.583984 13.902344 C 14.331906 14.671056 16.345831 14.563134 18 13.607422 C 19.653087 12.652335 20.756962 10.963375 20.964844 9.0644531 L 21.152344 7.3398438 C 22.089998 7.1753403 23.026183 7 24 7 z M 24 16 C 19.599487 16 16 19.59949 16 24 C 16 28.40051 19.599487 32 24 32 C 28.400513 32 32 28.40051 32 24 C 32 19.59949 28.400513 16 24 16 z M 24 19 C 26.779194 19 29 21.220808 29 24 C 29 26.779192 26.779194 29 24 29 C 21.220806 29 19 26.779192 19 24 C 19 21.220808 21.220806 19 24 19 z"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="phone" style="display: none;">スマホには対応しておりません</div>
+    <div class="setting_cover"></div>
+    <div class="setting_box">
+        <h1>設定</h1>
+        <span>ダークモード</span>
+        <div class="toggle" onclick="Cookies()">
+            <input type="checkbox" name="check" id="darkModeToggle">
+            <label for="darkModeToggle"></label>
+        </div>
+    </div>
+    <div class="main">
+        <h1 class="title">ウェブアクセシビリティ</h1>
+        <h1>方針、結果について</h1>
+        <span>このサイトはすべての人にとってわかりやすいように作成しています。<br>
+            主に日本規格協会 JIS X 8341-3「高齢者・障害者等配慮設計指針-情報通信における機器,ソフトウェア及びサービス-第3部：ウェブコンテンツ」を参考に、独自の基準を設け、評価しています。<br>
+            詳しい結果について下記リンクより参照ください。<br>
+            <a href="">ウェブアクセシビリティ検証結果</a>
+        </span>
+        <h1>範囲</h1>
+        <span>なお、本アクセシビリティ検証はルートディレクトリ、「PP」フォルダ内のHTMLファイルに限ります。</span>
+        <h1>タイトル、表示形式について</h1>
+        <span>
+            <ul>
+                <li>各セクションのタイトルはわかりやすいようにタイトルタグを設定し、見やすくしています。</li>
+                <li>サイトタイトルは内容に沿ったものを設定し、すべてのサイトタイトルにはサイト名を付随しています。</li>
+                <li>すべてのサイトにはサイトアイコンを設置し、タブ一覧から当サイトのアイコンが確認できるようにしています。</li>
+                <li>各ページにはナビーゲーション「ヘッダー・フッター」を設置し、どこからでも探すページに移動できるようにしています。</li>
+            </ul>
+        </span>
+        <h1>テキストについて</h1>
+        <ul>
+            <li>テキストサイズはすべてのデバイスで16px以上になるように設定しています。</li>
+            <li>16pxは通常の本文に使われ、多くの人が見やすい文字サイズです。</li>
+            <li>タイトルのサイズは最低20pxで設定し、タイトルと本文の区別がはっきりとつくようになっています。</li>
+            <li>行間を設定し、文字サイズの1.5倍の行間をすべてのテキストにおいて維持しています。</li>
+        </ul>
+        <h1>画像について</h1>
+        <span>画像は大きさを適切に設定し、代替テキストをわかりやすく、具体的に設定しています。</span>
+        <h1>配色について</h1>
+        <ul>
+            <li>色のコントラストを確認し、目に負担のかからない色合いを使用しています。</li>
+            <li>背景色は白（#fffff）ではなく、少し暗い色（#eeeee）を使用しています。</li>
+            <li>テキストの色は黒（#00000）ではなく、少し明るめの色（#2e2e2e）を使用しています。</li>
+            <li>それぞれにあった色で閲覧できるよう、ダークモードを実装しています。</li>
+        </ul><br>
+        <span>下記に使用している色を掲載しています。ご覧ください。</span><br><br>
+        <div class="origin">
+            <div class="white">
+                <div class="white-e">#eeeeee（少し暗めの白）</div>
+                #ffffff（白）
+            </div>
+            <div class="black">
+                <div class="black-2e">#2e2e2e（少し明るめの黒）</div>
+                #000000（黒）
+            </div>
+        </div><br>
+        <span>当サイトでは上の色のうち、内側の色2色を使用しています。</span>
+        <h1>言語について</h1>
+        <span>当サイトでは一部日本語以外の言語を使用していますが、音声リーダーなどで適切に読み上げられるよう、適切な言語設定をしています。</span>
+    </div>
+    <footer>
+        <div class="i_link">
+            <span><a href="">ウェブアクセシビリティ</a></span>
+            <span><a href="">利用規約</a></span>
+        </div>
+        <span class="c" lang="en">©︎ 2023 Sohiko Misaki</span>
+    </footer>
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+	    var settingLink = document.querySelector('.setting');
+	    var box = document.querySelector('.setting_box');
+	    var cover = document.querySelector('.setting_cover');
+  
+	    settingLink.addEventListener('click', function(e) {
+	    e.preventDefault();
+	    box.classList.toggle('active');
+	    cover.classList.toggle('block');
+            
+	    if (box.classList.contains('active')) {
+		    document.body.style.overflow = 'hidden';
+	    } else {
+		    document.body.style.overflow = '';
+	    }
+	    });
+        });
+    </script>
+    <script>
+        function Cookies() {
+            var limit = 30;
+            var nowDate = new Date();
+            nowDate.setTime(nowDate.getTime() + limit*24*60*60*1000);
+            var LimitDate = nowDate.toGMTString();
+            var expires = "expires=" + LimitDate + "; ";
+            var path = "path=/";
+            var dt = new Date('1999-12-31T23:59:59Z');
+            if (document.cookie.indexOf('mycookie=dark-mode') != -1) {
+                document.cookie = "mycookie=; expires=0";
+                console.log(document.cookie);
+            } else {
+                var cookieValue = "dark-mode";
+                document.cookie = "mycookie=" + cookieValue;
+                console.log(document.cookie);
+            }
+        }
+    </script>
+    <script>
+            $(".toggle").on("click", function() {
+            $(".toggle").toggleClass("checked");
+            $("html").toggleClass("dark-mode");
+            $("header").toggleClass("dark-mode");
+            $(".link").toggleClass("dark-mode");
+            $(".setting").toggleClass("dark-mode");
+            $(".setting_box").toggleClass("dark-mode");
+            $(".logo").toggleClass("dark-mode");
+            if(!$('input[name="check"]').prop("checked")) {
+                $(".toggle input").prop("checked", true);
+                $("html").prop("dark-mode", true);
+                $("header").prop("dark-mode", true);
+                $(".link").prop("dark-mode", true);
+                $(".setting").prop("dark-mode", true);
+                $(".setting_box").prop("dark-mode", true);
+                $(".logo").prop("dark-mode", true);
+            } else {
+                $(".toggle input").prop("checked", false);
+                $("html").prop("dark-mode", false);
+                $("header").prop("dark-mode", false);
+                $(".link").prop("dark-mode", false);
+                $(".setting").prop("dark-mode", false);
+                $(".setting_box").prop("dark-mode", false);
+                $(".logo").prop("dark-mode", false);
+            }
+        });
+    </script>
+    <script>
+        if (document.cookie.indexOf('mycookie=dark-mode') != -1) {
+            $(".toggle").toggleClass("checked");
+            $("html").toggleClass("dark-mode");
+            $("header").toggleClass("dark-mode");
+            $(".link").toggleClass("dark-mode");
+            $(".setting").toggleClass("dark-mode");
+            $(".setting_box").toggleClass("dark-mode");
+            $(".logo").toggleClass("dark-mode");
+            if(!$('input[name="check"]').prop("checked")) {
+                $(".toggle input").prop("checked", true);
+                $("html").prop("dark-mode", true);
+                $("header").prop("dark-mode", true);
+                $(".link").prop("dark-mode", true);
+                $(".setting").prop("dark-mode", true);
+                $(".setting_box").prop("dark-mode", true);
+                $(".logo").prop("dark-mode", true);
+            } else {
+                $(".toggle input").prop("checked", false);
+                $("html").prop("dark-mode", false);
+                $("header").prop("dark-mode", false);
+                $(".link").prop("dark-mode", false);
+                $(".setting").prop("dark-mode", false);
+                $(".setting_box").prop("dark-mode", false);
+                $(".logo").prop("dark-mode", false);
+            }
+        }
+    </script>
+</body>
+</html>
