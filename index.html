@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP | ウェブアクセシビリティ</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+    <!-- Favicon end -->
+</head>
+<body>
+    <header class="header">
+        <div class="h_l">
+            <img src="./img/top_logo.png" class="logo" alt="PPS Logo">
+        </div>
+        <div class="h_r">
+            <ul>
+                <li><a href="#top" class="link">ホーム</a></li>
+                <li><a href="#type" class="link">種類</a></li>
+                <li><a href="#history" class="link">歴史</a></li>
+                <li>
+                    <a href="" class="link last-child setting">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 48 48">
+                        <path d="M 24 4 C 22.423103 4 20.902664 4.1994284 19.451172 4.5371094 A 1.50015 1.50015 0 0 0 18.300781 5.8359375 L 17.982422 8.7382812 C 17.878304 9.6893592 17.328913 10.530853 16.5 11.009766 C 15.672739 11.487724 14.66862 11.540667 13.792969 11.15625 L 13.791016 11.15625 L 11.125 9.9824219 A 1.50015 1.50015 0 0 0 9.4257812 10.330078 C 7.3532865 12.539588 5.7626807 15.215064 4.859375 18.201172 A 1.50015 1.50015 0 0 0 5.4082031 19.845703 L 7.7734375 21.580078 C 8.5457929 22.147918 9 23.042801 9 24 C 9 24.95771 8.5458041 25.853342 7.7734375 26.419922 L 5.4082031 28.152344 A 1.50015 1.50015 0 0 0 4.859375 29.796875 C 5.7625845 32.782665 7.3519262 35.460112 9.4257812 37.669922 A 1.50015 1.50015 0 0 0 11.125 38.015625 L 13.791016 36.841797 C 14.667094 36.456509 15.672169 36.511947 16.5 36.990234 C 17.328913 37.469147 17.878304 38.310641 17.982422 39.261719 L 18.300781 42.164062 A 1.50015 1.50015 0 0 0 19.449219 43.460938 C 20.901371 43.799844 22.423103 44 24 44 C 25.576897 44 27.097336 43.800572 28.548828 43.462891 A 1.50015 1.50015 0 0 0 29.699219 42.164062 L 30.017578 39.261719 C 30.121696 38.310641 30.671087 37.469147 31.5 36.990234 C 32.327261 36.512276 33.33138 36.45738 34.207031 36.841797 L 36.875 38.015625 A 1.50015 1.50015 0 0 0 38.574219 37.669922 C 40.646713 35.460412 42.237319 32.782983 43.140625 29.796875 A 1.50015 1.50015 0 0 0 42.591797 28.152344 L 40.226562 26.419922 C 39.454197 25.853342 39 24.95771 39 24 C 39 23.04229 39.454197 22.146658 40.226562 21.580078 L 42.591797 19.847656 A 1.50015 1.50015 0 0 0 43.140625 18.203125 C 42.237319 15.217017 40.646713 12.539588 38.574219 10.330078 A 1.50015 1.50015 0 0 0 36.875 9.984375 L 34.207031 11.158203 C 33.33138 11.54262 32.327261 11.487724 31.5 11.009766 C 30.671087 10.530853 30.121696 9.6893592 30.017578 8.7382812 L 29.699219 5.8359375 A 1.50015 1.50015 0 0 0 28.550781 4.5390625 C 27.098629 4.2001555 25.576897 4 24 4 z M 24 7 C 24.974302 7 25.90992 7.1748796 26.847656 7.3398438 L 27.035156 9.0644531 C 27.243038 10.963375 28.346913 12.652335 30 13.607422 C 31.654169 14.563134 33.668094 14.673009 35.416016 13.904297 L 37.001953 13.207031 C 38.219788 14.669402 39.183985 16.321182 39.857422 18.130859 L 38.451172 19.162109 C 36.911538 20.291529 36 22.08971 36 24 C 36 25.91029 36.911538 27.708471 38.451172 28.837891 L 39.857422 29.869141 C 39.183985 31.678818 38.219788 33.330598 37.001953 34.792969 L 35.416016 34.095703 C 33.668094 33.326991 31.654169 33.436866 30 34.392578 C 28.346913 35.347665 27.243038 37.036625 27.035156 38.935547 L 26.847656 40.660156 C 25.910002 40.82466 24.973817 41 24 41 C 23.025698 41 22.09008 40.82512 21.152344 40.660156 L 20.964844 38.935547 C 20.756962 37.036625 19.653087 35.347665 18 34.392578 C 16.345831 33.436866 14.331906 33.326991 12.583984 34.095703 L 10.998047 34.792969 C 9.7799772 33.330806 8.8159425 31.678964 8.1425781 29.869141 L 9.5488281 28.837891 C 11.088462 27.708471 12 25.91029 12 24 C 12 22.08971 11.087719 20.290363 9.5488281 19.160156 L 8.1425781 18.128906 C 8.8163325 16.318532 9.7814501 14.667839 11 13.205078 L 12.583984 13.902344 C 14.331906 14.671056 16.345831 14.563134 18 13.607422 C 19.653087 12.652335 20.756962 10.963375 20.964844 9.0644531 L 21.152344 7.3398438 C 22.089998 7.1753403 23.026183 7 24 7 z M 24 16 C 19.599487 16 16 19.59949 16 24 C 16 28.40051 19.599487 32 24 32 C 28.400513 32 32 28.40051 32 24 C 32 19.59949 28.400513 16 24 16 z M 24 19 C 26.779194 19 29 21.220808 29 24 C 29 26.779192 26.779194 29 24 29 C 21.220806 29 19 26.779192 19 24 C 19 21.220808 21.220806 19 24 19 z"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="phone" style="display: none;">スマホには対応しておりません</div>
+    <div class="setting_cover"></div>
+    <div class="setting_box">
+        <h1>設定</h1>
+        <span>ダークモード</span>
+        <div class="toggle" onclick="Cookies()">
+            <input type="checkbox" name="check" id="darkModeToggle">
+            <label for="darkModeToggle"></label>
+        </div>
+    </div>
+    <section class="top">
+        <div class="t_l">
+            <h1 style="color: white;" lang="en">Programming</h1>
+        </div>
+        <div class="t_r">
+            <img src="./img/top_logo.png" alt="PPS Logo">
+        </div>
+    </section>
+    <div class="grid">
+        <section class="about">
+            <h1>プログラミングとは？</h1>
+            <div class="a_text">
+                プログラミングは、コンピュータに特定のタスクや動作を指示するための手順を作ることです。<br>
+                プログラミング言語を使って、ウェブサイトやアプリ、ゲームなどを作成することができます。<br>
+                プログラミングは、コンピュータに自分の考えを伝える方法であり、創造的な問題解決や論理的思考を駆使する活動でもあります。<br>
+                難しく聞こえますが、ある程度慣れれば簡単に扱え、習得にもあまり時間がかかりません。簡単な英語が使えれば支障はないでしょう。<br><br>
+                パソコン、スマホを開いた先にあるものは全てプログラミングによって作られています。
+            </div>
+        </section>
+        <!-- <section class="type">
+            <h1>種類</h1>
+            <div class="t_origin">
+                <div class="t_o_1">
+                    <div>　</div>
+                    <p>HTML</p>
+                    <span>ウェブサイトの構築に使われ、すべてのウェブサイトで使われています。</span>
+                </div>
+            </div>
+        </section> -->
+        <h1 class="type_h1" id="type">種類</h1>
+        <div class="t_o_1 t_o_0">
+            <div>　</div>
+            <p>HTML</p>
+            <span>ウェブサイトの構築に使われ、すべてのウェブサイトで使われています。<br><br></span>
+        </div>
+        <div class="t_o_2 t_o_0">
+            <div>　</div>
+            <p>CSS</p>
+            <span>ウェブサイトのデザインに使われ、すべてのウェブサイトのデザインに使われています。</span>
+        </div>
+        <div class="t_o_3 t_o_0">
+            <div>　</div>
+            <p>JavaScript</p>
+            <span>ウェブサイト等に簡単に動きをつけることができ、タイマーや時間表示、計算などができます。</span>
+        </div>
+        <div class="t_o_4 t_o_0">
+            <div>　</div>
+            <p>PHP</p>
+            <span>サーバーサイドで使われる言語であり、ユーザー側が見ることはありません。会員登録処理や、パスワードなどの保存が可能です。<br><br></span>
+        </div>
+        <div class="t_o_5 t_o_0">
+            <div>　</div>
+            <p>Java</p>
+            <span>今注目されている言語であり、WEB開発、アプリケーション開発が可能で、様々な開発に使用することができます。
+            </span>
+        </div>
+        <div class="t_o_6 t_o_0">
+            <div>　</div>
+            <p>Python</p>
+            <span>今注目のAIなど、人工知能にまつわる言語で、機械学習を主としています。また、構文が簡単という特徴もあります。</span>
+        </div>
+        <div class="t_text">
+            <p>プログラミングはプログラミング言語を使って行います。プログラミング言語の代表格を6つ、独断と偏見で取り上げました。<br><br>
+            プログラミング言語にはWEB開発、アプリ開発、AI開発、サーバー操作、OS操作など様々な用途に合ったものが存在し、<span>200〜300</span>もの言語が存在していると言われています。しかし、その中でも使われているのは10％ほどです。<br><br>
+            皆さんもお気に入りの言語を見つけてみましょう。</p>
+        </div>
+        <div class="history" id="history">
+            <div class="area title">
+                <h1 class="history_h1">歴史</h1>
+                <p class="h_h1_p">プログラミングの歴史について簡単にご紹介します</p>
+            </div>
+            <div class="area h1940">
+                <h2>1940年代</h2>
+                <h3>機械言語でコンピューターを動かすことができるようになり、単純な処理が可能に</h3>
+            </div>
+            <div class="area h1960">
+                <h2>1960年代</h2>
+                <h3>手続き型言語が誕生。事務処理の効率化が図られる。（日本ではCOBOLが誕生）</h3>
+            </div>
+            <div class="area h1970">
+                <h2>1970年代</h2>
+                <h3>データベース（登録情報などを保存する場所）を操作する言語、SQLが誕生</h3>
+            </div>
+            <div class="area h1980">
+                <h2>1980年代</h2>
+                <h3>C言語が中心となる。C++も登場するものの、当時はオブジェクト指向が普及しておらいなかった。</h3>
+            </div>
+            <div class="area h19901">
+                <h2>1990年代前半</h2>
+                <h3>Pythonが開発され、広く普及する。Microsoft社がVBAを開発。Excelに搭載され、多くに人が利用する。</h3>
+            </div>
+            <div class="area h19902">
+                <h2>1990年代後半</h2>
+                <h3>日本初のプログラミング言語、Rubyを発表。国内外で人気になる。<br>同じ年、Javaが発表され、C言語などオブジェクト指向が主流ではなかったプログラミング言語が一転し、オブジェクト指向を使った言語が取り入れられるように。Javaも瞬く間に普及。<br>さらに同じ年、現在のPHPの前身である PHP/FI が開発。<br>その2年後、JavaScriptが開発され、ウェブサイトのクライアント側（閲覧者側）で簡単に動的処理が可能に。</h3>
+            </div>
+            <div class="area h2000">
+                <h2>2000年代</h2>
+                <h3>C++にJavaを盛り込んだC＃が発表される。<br>また、大手Google社がプログラミング言語、Goを発表。</h3>
+            </div>
+            <div class="area h2010">
+                <h2>2010年代</h2>
+                <h3>クライアントサイド、サーバーサイドの両方で機能するDartがGoogle社から発表される。また、Appleによってアプリの開発に使われる言語、Swiftが発表される。<br>大手Facebook社からもPHPを基に開発されたHackが発表される。</h3>
+            </div>
+            <div class="area introduction">
+                <p>このサイトについて</p>
+                <span class="i_span">ウェブアクセシビリティに配慮した設計を行い、すべての人にとって見やすいサイトの作成を行いました<br><br>詳しくは「ウェブアクセシビリティ」をご確認ください</span>
+                <div class="footer">
+                    <div class="i_link">
+                        <span><a href="./accessibility/index.html">ウェブアクセシビリティ</a></span>
+                        <span><a href="">利用規約</a></span>
+                    </div>
+                    <span class="c" lang="en">©︎ 2023 Sohiko Misaki</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script>
+        var _window = $(window),
+        _header = $('.header'),
+        _link = $('.link'),
+        _svg = $('.last-child'),
+        heroBottom;
+ 
+        _window.on('scroll',function(){     
+        heroBottom = $('.top').height();
+        if(_window.scrollTop() > heroBottom){
+            _header.addClass('fixed');
+            _link.addClass('change_color');
+            _svg.addClass('change_color');
+            if(document.querySelector(".logo").classList.contains("dark-mode")) {
+                document.querySelector(".logo").src = "./img/top_logo.png";
+            } else {
+                document.querySelector(".logo").src = "./img/logo.png";
+            }
+        }
+        else{
+            _header.removeClass('fixed');   
+            _link.removeClass('change_color');
+            _svg.removeClass('change_color');
+            document.querySelector(".logo").src = "./img/top_logo.png";
+        }
+        });
+ 
+        _window.trigger('scroll');
+    </script>
+    <script>
+        $(".toggle").on("click", function() {
+            $(".toggle").toggleClass("checked");
+            $("html").toggleClass("dark-mode");
+            $("header").toggleClass("dark-mode");
+            $(".link").toggleClass("dark-mode");
+            $(".setting").toggleClass("dark-mode");
+            $(".setting_box").toggleClass("dark-mode");
+            $(".logo").toggleClass("dark-mode");
+            if(!$('input[name="check"]').prop("checked")) {
+                $(".toggle input").prop("checked", true);
+                $("html").prop("dark-mode", true);
+                $("header").prop("dark-mode", true);
+                $(".link").prop("dark-mode", true);
+                $(".setting").prop("dark-mode", true);
+                $(".setting_box").prop("dark-mode", true);
+                $(".logo").prop("dark-mode", true);
+            } else {
+                $(".toggle input").prop("checked", false);
+                $("html").prop("dark-mode", false);
+                $("header").prop("dark-mode", false);
+                $(".link").prop("dark-mode", false);
+                $(".setting").prop("dark-mode", false);
+                $(".setting_box").prop("dark-mode", false);
+                $(".logo").prop("dark-mode", false);
+            }
+        });
+    </script>
+    <script>
+        function Cookies() {
+            var limit = 30;
+            var nowDate = new Date();
+            nowDate.setTime(nowDate.getTime() + limit*24*60*60*1000);
+            var LimitDate = nowDate.toGMTString();
+            var expires = "expires=" + LimitDate + "; ";
+            var path = "path=/";
+            var dt = new Date('1999-12-31T23:59:59Z');
+            if (document.cookie.indexOf('mycookie=dark-mode') != -1) {
+                document.cookie = "mycookie=; expires=0";
+                console.log(document.cookie);
+            } else {
+                var cookieValue = "dark-mode";
+                document.cookie = "mycookie=" + cookieValue;
+                console.log(document.cookie);
+            }
+        }
+    </script>
+    <script>
+        if (document.cookie.indexOf('mycookie=dark-mode') != -1) {
+            $(".toggle").toggleClass("checked");
+            $("html").toggleClass("dark-mode");
+            $("header").toggleClass("dark-mode");
+            $(".link").toggleClass("dark-mode");
+            $(".setting").toggleClass("dark-mode");
+            $(".setting_box").toggleClass("dark-mode");
+            $(".logo").toggleClass("dark-mode");
+            if(!$('input[name="check"]').prop("checked")) {
+                $(".toggle input").prop("checked", true);
+                $("html").prop("dark-mode", true);
+                $("header").prop("dark-mode", true);
+                $(".link").prop("dark-mode", true);
+                $(".setting").prop("dark-mode", true);
+                $(".setting_box").prop("dark-mode", true);
+                $(".logo").prop("dark-mode", true);
+            } else {
+                $(".toggle input").prop("checked", false);
+                $("html").prop("dark-mode", false);
+                $("header").prop("dark-mode", false);
+                $(".link").prop("dark-mode", false);
+                $(".setting").prop("dark-mode", false);
+                $(".setting_box").prop("dark-mode", false);
+                $(".logo").prop("dark-mode", false);
+            }
+        }
+    </script>
+</body>
+</html>
