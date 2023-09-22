@@ -13,10 +13,11 @@ PP ディレクトリ内の全てのファイル
 
 ### リンク
 [TOP](https://sohiko.github.io/PP/)
+
 [ウェブアクセシビリティページ](https://sohiko.github.io/PP/accessibility/index.html)
-
-
-
-
-
+　
+　
+　
+　
+　
 **G10 Sohiko Misaki**
